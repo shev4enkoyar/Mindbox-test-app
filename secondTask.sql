@@ -1,0 +1,1 @@
+SELECT products.Name AS Product_Name, categories.Name AS Category_Name FROM products LEFT JOIN product_category ON products.Id = product_category.ProductId LEFT JOIN categories ON categories.Id = product_category.CategoryId
